@@ -1,0 +1,30 @@
+.line {
+  display: flex;
+  text-align: center;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  div {
+    position: relative;
+  }
+  .small {
+    flex: 1;
+  }
+  .medium {
+    flex: 2;
+  }
+  .large {
+    flex: 3;
+  }
+  .checkbox {
+    width: 3rem;
+  }
+  .btn-arrow {
+    margin-left: 5px;
+    text-align: center;
+    height: 2rem;
+    width: 2rem;
+  }
+  .selected {
+    color: blue;
+  }
+}
