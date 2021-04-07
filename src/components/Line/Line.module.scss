@@ -1,0 +1,16 @@
+.line {
+  display: flex;
+  text-align: center;
+  .small {
+    flex: 1;
+  }
+  .medium {
+    flex: 2;
+  }
+  .large {
+    flex: 3;
+  }
+  .checkbox {
+    width: 3rem;
+  }
+}
